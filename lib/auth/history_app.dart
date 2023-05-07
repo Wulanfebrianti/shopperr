@@ -24,18 +24,12 @@ class _HistoryAppState extends State<HistoryApp> {
               ),
               actions: <Widget>[
                 IconButton(
-                  icon: SvgPicture.asset(
-                      'assets/image/search.svg',
-                      semanticsLabel: 'vector'
-                  ),
+                  icon: Icon(Icons.search_rounded, size: 30, color: Colors.black),
                   onPressed: () {
                   },
                 ),
                 IconButton(
-                  icon: SvgPicture.asset(
-                      'assets/image/vector.svg',
-                      semanticsLabel: 'vector'
-                  ),
+                  icon: Icon(Icons.filter_list_alt, size: 30, color: Colors.black),
                   onPressed: () {
                   },
                 ),
@@ -155,7 +149,8 @@ class _HistoryAppState extends State<HistoryApp> {
                                               color : Color.fromRGBO(255, 255, 255, 1),
                                             )
                                         )
-                                    ),Positioned(
+                                    ),
+                                    Positioned(
                                         top: 7,
                                         left: 9,
                                         child: Container(
@@ -171,7 +166,8 @@ class _HistoryAppState extends State<HistoryApp> {
                                               color : Color.fromRGBO(232, 232, 232, 1),
                                             )
                                         )
-                                    ),Positioned(
+                                    ),
+                                    Positioned(
                                         top: 23,
                                         left: 41,
                                         child: Container(
@@ -184,7 +180,8 @@ class _HistoryAppState extends State<HistoryApp> {
                                               ),
                                             )
                                         )
-                                    ),Positioned(
+                                    ),
+                                    Positioned(
                                         top: 17,
                                         left: 139,
                                         child: Text('Rusmart', textAlign: TextAlign.left, style: TextStyle(
